@@ -4,7 +4,7 @@ import { format, startOfToday } from "date-fns";
 
 export function initializeApp() {
   const date = format(startOfToday(), "MM/dd/yyyy");
-  console.log(date);
+
   const projects = []; // initialize an empty array to manage multiple projects
 
   // create default projects and todos to start with
