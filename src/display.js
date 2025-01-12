@@ -8,6 +8,7 @@ export const display = (() => {
       projectTitle.textContent = `${project.title}`;
       container.appendChild(projectTitle);
     });
+    container.classList.add("project");
   };
 
   const renderTodos = (project, container) => {
@@ -19,6 +20,8 @@ export const display = (() => {
       todoElement.textContent = `${todo.title}`;
       container.appendChild(todoElement);
     });
+
+    container.classList.add("todos");
   };
 
   const renderApp = (appState, projectContainer, todoContainer) => {

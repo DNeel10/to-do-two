@@ -1,0 +1,21 @@
+body {
+  background-color: rgb(59, 59, 59);
+}
+
+.container {
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.project {
+  background-color: #670594;
+  color: #87ffc6;
+  justify-content: center;
+  text-align: center;
+}
+
+.todos {
+  background-color: #87ffc6;
+  width: 100%;
+}

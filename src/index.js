@@ -1,9 +1,10 @@
 import { initializeApp } from "./appController";
 import { display } from "./display";
+import "./styles.css";
 
-const sidebar = document.getElementById("sidebar");
-const projectDiv = document.getElementById("projectDiv");
+const projectsDiv = document.getElementById("projects");
+const todosDiv = document.getElementById("todos");
 
 const app = initializeApp();
 
-display.renderApp(app, sidebar, projectDiv);
+display.renderApp(app, projectsDiv, todosDiv);
